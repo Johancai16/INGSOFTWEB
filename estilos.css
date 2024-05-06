@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)),
+        url(imagenes/logo.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        color: #fffdfc;
+
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 400;
+}
+
+.menu .navbar ul li a:hover{
+    color: red;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: whitesmoke;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #fffdfc;
+    padding: 0 200px;
+    margin-bottom: 25px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px;
+    background-color: rgb(255, 99, 99);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.btn-1:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.camiseta{
+    padding: 100px 0;
+    background-color: #bebebe;
+    position: relative;
+}
+
+.camiseta-content{
+    text-align: center;
+}
+
+.camiseta-content h2{
+    font-size: 55px;
+    line-height: 120px;
+    color: rgb(207, 43, 43);
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 10px;
+
+}
+
+.txt-p{
+    font-size: 20px;
+    color: rgb(41, 41, 41);
+    padding: 0 250px;
+    margin-bottom: 50px;
+}
+
+.camiseta-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.camiseta img{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.camiseta-1 img{
+    width: 250px;
+}
+
+.camiseta-1 h3{
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 15px;
+
+}
+
+.productos{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(imagenes/logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.productos-content{
+    text-align: center;
+}
+
+.productos-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.productos-content p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.productos-content h3{
+    color: #fffdfc;
+    margin-bottom: 50px;
+
+}
+
+.productos img{
+    border-radius: 25px;
+}
+
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 50px;
+    padding: 50px 571px 100px 100px;
+    background-color: rgb(207, 207, 207);
+}
+
+.general-2{
+    background-image: url(imagenes/fondo1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(imagenes/fondo2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general h2{
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding-left: 190px;
+}
+
+.general p{
+    padding-left: 190px;
+    line-height: 20px;
+}
+
