@@ -206,26 +206,6 @@ body{
 }
 
 .footer{
-    background-color: #1aa71a;
+    background-color: #e64848;
+    text-align: center;
 }
-
-.footer__title{
-    font-weight: 300;
-    font-size: 2rem;
-    margin-bottom: 30px;
-    justify-content: center;
-}
-
-.footer__title, .footer__newsletter{
-    color: #ffffff;
-}
-
-
-.footer__container{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 60px;
-}
-
